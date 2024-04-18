@@ -1,0 +1,348 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-heading {
+    margin-bottom: 30px;
+}
+
+.skills-heading h2 {
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex; /* Use flexbox to arrange skills side by side */
+    justify-content: center; /* Center the skills horizontally */
+    flex-wrap: wrap; /* Allow skills to wrap to next line if necessary */
+    margin-left: -10px; /* Adjust margin to remove extra space between skills */
+    margin-right: -10px; /* Adjust margin to remove extra space between skills */
+}
+
+.skill {
+    margin: 0 10px 20px; /* Adjust margin for individual skill */
+    flex: 1 0 150px; /* Set flex properties for responsive layout */
+    text-align: center; /* Center the skill content */
+}
+
+.skill img {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%; /* Make progress bar fill the width of the skill container */
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #007bff; /* Adjust the color of the progress bar */
+}
+
+.percentage {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.progress {
+    width: 100%; /* Make progress bar fill the width of the skill container */
+    height: 10px; /* Adjust the height of the progress bar */
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-bar {
+    height: 100%;
+    background-color: #007bff; /* Adjust the color of the progress bar */
+    /* Adjust the width of the progress bar */
+    width: 50%; /* For example, set it to 50% for a shorter length */
+}
+.progress-bar {
+    height: 100%;
+    background-color: #007bff; /* Adjust the color of the progress bar */
+    /* Adjust the width of the progress bar */
+    width: 50%; /* For example, set it to 50% for a shorter length */
+}
+.hero-photo {
+    width: 300px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+#skills{
+    background-color: #333;
+}
+#about{
+    background-color: #333;
+}
+.about-images img {
+    max-width: 25%; /* Limit the image width to its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add some spacing between images */
+}
+#para{
+    padding-left: 30%;
+    padding-right: 30%;
+    color:#fff
+}
+#projects{
+    background-color: #333;
+}
+#para1{
+    padding-left: 30%;
+    padding-right: 30%;
+    color:#fff
+    
+}
+.project {
+    margin-bottom: 40px;
+    overflow: hidden; /* Clear floats */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project-content {
+    float: left; /* Float content to the left */
+    width: calc(100% - 200px); /* Calculate width excluding image */
+}
+
+.project-image {
+    float: right; /* Float image to the right */
+    width: 200px; /* Set width of image container */
+}
+
+.project-image img {
+    width: 100%; /* Make image responsive */
+}
+#a{
+ width:400px;
+ height:400px
+
+}
+.project {
+    margin-bottom: 40px;
+    position: relative; /* Position the project container */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project-content {
+    margin-bottom: 20px; /* Add some space below the content */
+}
+
+.project-image {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align the image to the top */
+    right: 0; /* Align the image to the right */
+    width: 200px; /* Set width of image container */
+    margin-right: 20px; /* Add margin to the right of the image */
+}
+
+.project-image img {
+    width: 100%; /* Make image responsive */
+}
+.project {
+    margin-bottom: 40px;
+    position: relative; /* Position the project container */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project-content {
+    margin-bottom: 20px; /* Add some space below the content */
+}
+
+.project-image {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align the image to the top */
+    left: -20px; /* Move the image 20px to the left */
+    width: 200px; /* Set width of image container */
+}
+
+.project-image img {
+    width: 100%; /* Make image responsive */
+}
+#para2{
+    padding-left: 30%;
+    padding-right: 30%;
+    color:#fff
+}
+#para4{
+    padding-left: 30%;
+    padding-right: 20%;
+    color:#fff
+}
+#para5{
+    padding-left: 30%;
+    padding-right: 20%;
+    color:#fff
+}
+#fake{
+    width: 400px;
+    height:400px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-right h3 {
+    margin-bottom: 20px;
+}
+
+.contact-details,
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details li,
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-details li:last-child,
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.contact-details a,
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.contact-details a:hover,
+.social-icons a:hover {
+    color: #007bff;
+}
+#mobile{
+    display: inline-block;
+}
+button{
+    background-color: #007bff;
+    color: black;
+}
